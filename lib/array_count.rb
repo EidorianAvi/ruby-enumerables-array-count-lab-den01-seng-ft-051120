@@ -11,3 +11,7 @@
 #     n.class == String && n.size == 0
 #   end
 # end
+
+def count_strings(array)
+  
+end
