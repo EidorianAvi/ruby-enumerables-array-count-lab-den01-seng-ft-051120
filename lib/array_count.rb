@@ -14,7 +14,6 @@
 
 def count_strings(array)
   array.count do |each|
-    if each.is_a?String
-    end
+    each.class.is_a?String
   end
 end
