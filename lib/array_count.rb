@@ -22,4 +22,5 @@ end
 def count_empty_strings(array)
   array.count do |each|
     each.class == String && each.is_empty?
+  end
 end
